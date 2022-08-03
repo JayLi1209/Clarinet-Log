@@ -4,6 +4,8 @@
     --color-accent: #ff3400;
     --color-headings:#1b0760;
     --color-body:#918ca4;
+    --color-border:#ccc;
+    --border-radius: 30px;
 }
 
 *, *::after, *::before{
@@ -181,7 +183,7 @@ a{
     padding: 2rem 3rem;
     text-transform: uppercase;
     text-align: center;
-    white-space: nowrap;
+    white-space: nowrap; /* More accurate designs */
     margin: 1rem 0;
 }
 
@@ -231,4 +233,42 @@ a{
     .btn{
         font-size: 15px;
     }
+}
+
+/* Inputs */
+
+.input{
+    padding: 1.5rem 3.5rem;
+    border: 1px solid var(--color-border);
+    border-radius: var(--border-radius);
+    outline: 0;
+    color: var(--color-headings);
+    font-size: 2rem;
+}
+
+::placeholder{
+    color: #cdcbd7;
+}
+
+@media screen and (min-width: 1024px) {
+   .input{
+    font-size: 1.5rem;
+   }
+}
+
+.input-group{
+    border: 1px solid var(--color-border);
+    border-radius: var(--border-radius);
+    display: flex;
+}
+
+.input-group .input{
+    border: 0;
+    flex-grow: 1; /* grow the input field to take up
+    all the avaliable space. */
+    padding: 1.5rem 1rem;
+}
+
+.input-group .btn{
+    margin: 4px;
 }
