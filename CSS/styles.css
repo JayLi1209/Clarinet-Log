@@ -101,7 +101,6 @@ a{
 .link-arrow:hover::after{
     margin-left: 10px;
     transition: margin 0.15s; /* Use of margin is allowed! */
-    color: var();
 }
 
 @media screen and (min-width: 1024px){
@@ -902,5 +901,4 @@ a{
   .footer__heading{
     font-size: 1.6rem;
   }
-
 }

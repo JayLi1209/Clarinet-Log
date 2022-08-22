@@ -1,0 +1,23 @@
+{
+  "name": "clarinet-log",
+  "version": "1.0.0",
+  "description": "Used structure provided by Mosh, this is a website updating my personal works in clairnet! </br> </br> Current progress: 80% </br> Stay tuned!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JayLi1209/Clarinet-Log.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JayLi1209/Clarinet-Log/issues"
+  },
+  "homepage": "https://github.com/JayLi1209/Clarinet-Log#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}
